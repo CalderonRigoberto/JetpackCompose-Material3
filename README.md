@@ -13,6 +13,10 @@ The application showcases a variety of Material 3 components and UI patterns org
 * UI Controls: Switches, radio buttons, and other input controls
 * Lazy Lists and Pull to Refresh: Implementation of scrolling lists with pull-to-refresh functionality
 
+## Showcase
+The following screenshots demonstrate the Material 3 components implemented in the project:
+
+| !\[Jetpack Compose + Material3 Dark Theme\](screenshots/jetpack+material3_dark.png) | !\[Jetpack Compose + Material3 Light Theme\](screenshots/jetpack+material3_ligth.png) |
 
 ## Implementation Details
 The project is built with:  
