@@ -14,11 +14,16 @@ import com.rcalderon.jetpackcomposematerial3.presentation.screens.SnackBarsAndDi
 import com.rcalderon.jetpackcomposematerial3.presentation.screens.UiControlsScreen
 
 @Composable
-fun AppNavigation() {
+fun AppNavigation(
+    isDarkTheme: Boolean,
+    onChangeTheme: (Boolean) -> Unit,
+) {
     val navController = rememberNavController()
     NavHost (navController = navController, startDestination = Routes.MainScreen.route) {
         composable(Routes.MainScreen.route) {
             MainScreen(
+                isDarkTheme = isDarkTheme,
+                onChangeTheme = onChangeTheme,
                 onNavigate = { route ->
                     navController.navigate(
                         route = route,
