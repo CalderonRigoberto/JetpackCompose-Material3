@@ -1,8 +1,11 @@
 ## Jetpack Compose with Material 3
 This project demonstrates various Material 3 components implemented with Jetpack Compose. It serves as a showcase and reference for Android developers looking to adopt Google's latest design system.  
-Overview
+
+### Overview
+
 The application showcases a variety of Material 3 components and UI patterns organized into separate screens:  
-Buttons: Different types of buttons and their implementations
+
+* Buttons: Different types of buttons and their implementations
 * Cards: Various card designs and layouts
 * Progress Indicators: Linear and circular progress indicators
 * Snackbars and Dialogs: Implementation of notifications and dialog windows
